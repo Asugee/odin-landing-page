@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 99w;
 }
 
 .container-dark {
@@ -126,4 +126,31 @@ header nav a {
 
 .card-collection .info-card p {
     text-align: center;
+}
+
+.container-grey {
+    background-color: #efe7eb;
+}
+
+#quote {
+    display: flex;
+    height: 450px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote blockquote {
+    width: 50%;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote blockquote p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: initial;
 }
