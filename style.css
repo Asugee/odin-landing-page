@@ -195,3 +195,14 @@ header nav a {
     text-decoration: none;
     padding: 8px 24px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 40px 0;
+}
